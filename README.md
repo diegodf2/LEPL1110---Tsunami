@@ -1,7 +1,8 @@
-# LEPL1110 - Projet Tsunami 2022
+LEPL1110 - Projet Tsunami 2022
+================================
 
 ### Comment compiler ?
-__Commencer par installer cmake__. Une fois que c'est fait, créer un répertoire _build_ et aller dedans. etc.
+__*Commencer par installer cmake*__. Une fois que c'est fait, créer un répertoire *build* et aller dedans. etc.
 
 ### Comment exécuter ?
-Faire _make_ puis exécuter _./myFem_
+Faire *make* puis exécuter `./myFem`
