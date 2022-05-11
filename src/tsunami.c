@@ -152,7 +152,7 @@ void tsunamiAnimate(double dt, int nmax, int sub,  const char *meshFileName, con
 
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
-            gluLookAt(0.0f,1.0f,0.0f,0.0f, 20.0f, 0.0f,0.0f,0.0f,1.0f);  
+            gluLookAt(-1.0f,4.0f,6.0f,0.0f, 20.0f, -3.0f,0.0f,0.0f,1.0f);  
             glTranslatef(0.0f,14.0f,0.0f);
             double tt = 0;
             glRotatef(0.3f*(GLfloat)mouse + (GLfloat)tt*10.0f,0.0f,0.0f,1.0f);

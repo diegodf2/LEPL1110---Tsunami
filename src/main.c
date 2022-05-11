@@ -7,7 +7,7 @@ int main(void)
         char *resultBaseName = "../output/tsunamiMedium";
         
         double dt = 4;
-        int nMax  = 3000;
+        int nMax  = 6000;
         int sub   = 100;
                        
         tsunamiCompute(dt,nMax,sub,meshName,resultBaseName);
