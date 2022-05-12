@@ -74,8 +74,8 @@ void createStructureBasedOnFile(const char *meshFileName, myStruct *tsunami) {
     for (i = 0; i < nElem; i++) 
         fscanf(file,"%d : %d %d %d \n",&trash,&elem[i*3],&elem[i*3+1],&elem[i*3+2]);   
 
-    int *edges = malloc(sizeof(int)*nEdge*4);
     fscanf(file,"Number of edges %d \n",&nEdge);
+    int *edges = malloc(sizeof(int)*nEdge*4);
     for (i = 0; i < nEdge; i++) {
         fscanf(file,"%d : %d %d : %d %d \n", &trash, &edges[4*i], &edges[4*i+1], &edges[4*i+2], &edges[4*i+3]);
     }
